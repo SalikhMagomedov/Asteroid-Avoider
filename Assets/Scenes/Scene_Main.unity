@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502518, g: 0.37139204, b: 0.49601, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502664, g: 0.3713935, b: 0.49601382, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -645,6 +645,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cc5dfd5c08643b6bdf56068fc8b8df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1563425500}
+  continueButton: {fileID: 1249502387}
   gameOverText: {fileID: 147010477}
   scoreSystem: {fileID: 714408265}
   gameOverDisplay: {fileID: 105821413}
@@ -1204,7 +1206,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 698046065}
         m_TargetAssemblyTypeName: GameOverHandler, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ContinueButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

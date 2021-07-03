@@ -24,4 +24,9 @@ public class ScoreSystem : MonoBehaviour
 
         return Mathf.FloorToInt(_score);
     }
+
+    public void StartTimer()
+    {
+        _shouldCount = true;
+    }
 }
